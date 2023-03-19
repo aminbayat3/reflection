@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <title>Reflection</title>
+  </head>
+  <body>
+    <div id="info"></div>
+    <form class="form">
+      <div class="position">
+        <p>position:</p>
+        <div class="input-container">
+          <label for="input1">x:</label>
+          <input type="number" value="320" id="input1" min="0" max="640" />
+        </div>
+        
+        <div class="input-container">
+          <label for="input2">y:</label>
+          <input type="number" value="394" id="input2" min="0" max="480" />
+        </div>
+      </div>
+
+      <div class="norm">
+        <p>choose a value for n:</p>
+        <div class="input-container">
+          <label for="nx">nx:</label>
+          <input type="number" value="0" id="nx" />
+        </div>
+        
+        <div class="input-container">
+          <label for="ny">ny:</label>
+          <input type="number" value="1" id="ny"/>
+        </div>
+      </div>
+      
+      <button type="submit">Draw</button>
+    </form>
+    <script src="sketch.js"></script>
+  </body>
+</html>
