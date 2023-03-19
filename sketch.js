@@ -1,5 +1,5 @@
 const width = 640;
-const height = 394; 
+const height = 480; 
 let v1, v2, n;
 let a = 6;
 let b = 8;
@@ -32,7 +32,7 @@ form.addEventListener('submit', (e) => {
   info.innerHTML = `
   <p>reflectPoint: (${px}, ${py})</p>
   <p>n: (${a}, ${b})</p>
-`
+`;
 });
 
 
